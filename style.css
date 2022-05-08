@@ -1,7 +1,8 @@
-.logo {
+h1 {
+    font-size: 24px;
     display: flex;
     margin-right: auto;
-    width: 50px;
+    color: #F9FAF8;
 }
 * {
     box-sizing: border-box;
@@ -26,9 +27,10 @@ header {
     padding: 0px 20px;
     font-size: 48px;
     font-weight: bold;
-    background: #F9FAF8;
+    color: #F9FAF8;
     align-items: flex-end;
 }
-.nav_links li a {
-    
+.nav_links li a:hover {
+    color: #3882F6;
+
 }
