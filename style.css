@@ -32,36 +32,23 @@ a:visited {
     color: #E5E7EB
 }
 h2 {
-    display: flex;
-    flex-wrap: wrap;
     font-size: 48px;
-    font-weight: 700;
+    font-weight: bold;
     color:#F9FAF8;
-    justify-content: flex-start;
 }
-h4 {
-    display: flex;
-    justify-content: center;
-    padding: 50px;
-    font-size: 36px;
-    font-weight: 900;
-    color: #1F2937;
-    background-color: #E5E7EB;
-    height: 350px;
+.All {
+    padding: 5em;
+    margin-left: 8em;
 }
-p {
+.ale {
     font-size: 18px;
     color: #E5E7EB;
+    flex-wrap: wrap;
 }
 button {
     display: flex;
+    color:#F9FAF8;
     background-color: #3882F6;
-    color:#E5E7EB;
-    padding: 10px;
-    margin: 50px;
+    align-items: center;
+    
 }
-.main {
-    display: block;
-    padding: 1em;
-}
-
