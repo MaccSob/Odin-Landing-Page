@@ -37,18 +37,23 @@ h2 {
     color:#F9FAF8;
 }
 .All {
-    padding: 5em;
+    padding-top: 5em;
     margin-left: 8em;
+    max-width: 400px;
 }
 .ale {
     font-size: 18px;
     color: #E5E7EB;
-    flex-wrap: wrap;
+    max-width: 400px;
 }
-button {
-    display: flex;
-    color:#F9FAF8;
-    background-color: #3882F6;
-    align-items: center;
-    
+.butt {
+    padding:0.6em 2em;
+    border-radius: 8px;
+    color:#fff;
+    background-color:#1976d2;
+    font-size:1.1em;
+    border:0;
+}
+.butt a:hover {
+    color: red;
 }
